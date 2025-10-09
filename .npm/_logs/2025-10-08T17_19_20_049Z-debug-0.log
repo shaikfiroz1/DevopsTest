@@ -1,0 +1,18 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v22.19.0/bin/node /home/ubuntu/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ubuntu/git/.npmrc
+5 silly config load:file:/home/ubuntu/.npmrc
+6 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.19.0/etc/npmrc
+7 verbose title npm istall init
+8 verbose argv "istall" "init" "--yes"
+9 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2025-10-08T17_19_20_049Z-
+10 verbose logfile /home/ubuntu/.npm/_logs/2025-10-08T17_19_20_049Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /home/ubuntu/git
+13 verbose os Linux 6.14.0-1014-aws
+14 verbose node v22.19.0
+15 verbose npm  v10.9.3
+16 verbose exit 1
+17 verbose code 1

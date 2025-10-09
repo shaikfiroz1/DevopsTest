@@ -1,0 +1,40 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v22.19.0/bin/node /home/ubuntu/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ubuntu/.npmrc
+5 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.19.0/etc/npmrc
+6 verbose title npm install init
+7 verbose argv "install" "init" "--yes"
+8 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2025-10-09T10_07_15_783Z-
+9 verbose logfile /home/ubuntu/.npm/_logs/2025-10-09T10_07_15_783Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1027080192 maxSize:256770048 maxEntrySize:128385024
+12 silly idealTree buildDeps
+13 silly fetch manifest init@*
+14 silly packumentCache full:https://registry.npmjs.org/init cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 123ms
+16 http fetch GET 200 https://registry.npmjs.org/init 86ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/init set size:4634 disposed:false
+18 silly placeDep ROOT init@0.1.2 OK for:  want: *
+19 silly fetch manifest daemon@>=0.3.0
+20 silly packumentCache full:https://registry.npmjs.org/daemon cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/daemon 57ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/daemon set size:16568 disposed:false
+23 silly placeDep ROOT daemon@1.1.0 OK for: init@0.1.2 want: >=0.3.0
+24 silly reify moves {}
+25 http cache daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz 0ms (cache hit)
+26 http cache init@https://registry.npmjs.org/init/-/init-0.1.2.tgz 0ms (cache hit)
+27 silly ADD node_modules/daemon
+28 silly ADD node_modules/init
+29 verbose cwd /home/ubuntu
+30 verbose os Linux 6.14.0-1014-aws
+31 verbose node v22.19.0
+32 verbose npm  v10.9.3
+33 notice
+33 notice New [31mmajor[39m version of npm available! [31m10.9.3[39m -> [34m11.6.2[39m
+33 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.6.2[39m
+33 notice To update run: [4mnpm install -g npm@11.6.2[24m
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok
